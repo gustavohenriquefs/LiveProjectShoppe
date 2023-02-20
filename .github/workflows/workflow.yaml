@@ -18,7 +18,7 @@ jobs:
       - name: Build App
         run: yarn build
       - name: Set AWS credentials
-        uses: awd-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v1
         with:
       ## Na parte de secuty podem ser setadas essas variaveis:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
