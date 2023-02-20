@@ -9,8 +9,8 @@ jobs:
     runs-os: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - users: actions/checkout@v2
-      - users: actions/setup-node@v2
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
           node-version: 12
       - name: Install
