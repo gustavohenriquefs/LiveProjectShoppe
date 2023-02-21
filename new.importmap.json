@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "@shoppe/root-config": "config/mfe/root/1.0.0/shoppe-root-config.js",
+    "@shoppe/app-header": "/config/mfe/app-header/1.0.1/shoppe-app-header.js",
+    "@shoppe/app-footer": "config/mfe/app-footer/1.0.0/shoppe-app-footer.js",
+    "@shoppe/app-shop": "config/mfe/app-shop/1.0.0/shoppe-app-shop.js",
+    "@shoppe/app-account": "config/mfe/app-account/1.0.0/shoppe-app-account.js",
+    "@shoppe/app-cart": "config/mfe/app-cart/1.0.0/shoppe-app-cart.js",
+    "@shoppe/app-product": "config/mfe/app-product/1.0.0/shoppe-app-product.js",
+    "@shoppe/util-state": "config/mfe/util-state/1.0.0/shoppe-util-state.js",
+    "@shoppe/util-ui": "config/mfe/util-ui/1.0.0/shoppe-util-ui.js"
+  }
+}

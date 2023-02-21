@@ -13,6 +13,7 @@ aws s3 cp s3://mfe-shoppe-aula/config/import-map.json import-map.json
 NEW_URL=/config/mfe/app-header/$VERSION/shoppe-app-header.js
 
 # Agora modificando o import-map.json
+# cat loga o arquino no nosso console
 cat ./import-map.json | ./jq --arg NEW_URL "$NEW_URL" '.imports["@shoppe/app-header"] = $NEW_URL' > new.importmap.json
 
 
